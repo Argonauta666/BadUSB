@@ -5,21 +5,21 @@
 
 Baduino, HID aygıtlar taklit edilerek, ilgili İşletim Sistemi'ne komutların gönderilebildiği bir cihazdır. Öncesinden hazırlanmış bir takım script dosyalarını üzerinde bulunan depolama modülüne bağlı depolama cihazından okur ve çalıştırır.
 
-Donanım
+<b>Donanım</b>
 
 ![Baduino](http://i.imgur.com/mnQKtk9.png)
 
 Üstteki şekilde bağlantılar gösterilmekle birlikte devre elemanları şunlardır;
 
-SparkFun Pro Micro 5V/16Mhz ya da 3.3V/8Mhz
-MicroSD Card Module
-DIP Switch(4'lü)
+SparkFun Pro Micro 5V/16Mhz ya da 3.3V/8Mhz<br>
+MicroSD Card Module<br>
+DIP Switch(4'lü)<br>
 
 Kart, MicroSD modülü ile SPI haberleşme standardını kullandığı için USB Host Conroller özelliğinı kullanamıyoruz, bu da demek oluyor ki hedef İşletim Sistemiyle dosya alışverişi yapma gibi bir seçeneğimiz yok.
 
 DIP Switch'i daha önceden hazırlanmış olan scriptleri seçmek için kullanıyoruz.
 
-Yazılım
+<b>Yazılım</b>
 
 Bölüm 1 - Yorumlayıcı
 

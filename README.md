@@ -1,11 +1,13 @@
 # BadUSB
 
-![alt text](http://i.imgur.com/mnQKtk9.png)
+![BadUSB](http://i.imgur.com/eLdzMhR.jpg)
 
 
 Baduino, HID aygıtlar taklit edilerek, ilgili İşletim Sistemi'ne komutların gönderilebildiği bir cihazdır. Öncesinden hazırlanmış bir takım script dosyalarını üzerinde bulunan depolama modülüne bağlı depolama cihazından okur ve çalıştırır.
 
 Donanım
+
+![Baduino](http://i.imgur.com/mnQKtk9.png)
 
 Üstteki şekilde bağlantılar gösterilmekle birlikte devre elemanları şunlardır;
 

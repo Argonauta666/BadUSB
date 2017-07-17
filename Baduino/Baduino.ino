@@ -3,6 +3,11 @@
 #include <string.h>
 #include "Keyboard.h" //Türkçe Yerelleştirme Entegrasyonu.
 
+/*
+########### Hex4d0r ###########
+# Baduino, a Penetration Tool
+*/
+
 void typeKey(uint8_t key)
 {
   Keyboard.press(key);

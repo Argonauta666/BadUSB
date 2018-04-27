@@ -11,9 +11,9 @@ Baduino is a device by which HID devices can be imitated and commands can be sen
 
 The circuit elements shown above with the connections shown above;
 
-SparkFun Pro Micro 5V/16Mhz ya da 3.3V/8Mhz
-MicroSD Card Module
-DIP Switch(4'lü)
+- SparkFun Pro Micro 5V/16Mhz or 3.3V/8Mhz
+- MicroSD Card Module
+- 4er DIP Switch
 
 Since the card uses the SPI communication standard with the MicroSD module, we can not use the USB Host Conroller feature, which means that we do not have the option of exchanging files with the target Operating System.
 

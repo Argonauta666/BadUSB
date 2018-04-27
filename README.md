@@ -5,7 +5,7 @@
 
 Baduino is a device by which HID devices can be imitated and commands can be sent to the corresponding Operating System. A pre-prepared script reads and runs the script files from the storage device attached to the storage module.
 
-##Equipment
+<b>quipment</b>
 
 ![Baduino](http://i.imgur.com/mnQKtk9.png)
 
@@ -19,9 +19,9 @@ Since the card uses the SPI communication standard with the MicroSD module, we c
 
 We use the DIP Switch to select previously prepared scripts.
 
-##Software
+<b>Software</b>
 
-###Part 1 - Interpreter
+Part 1 - Interpreter
 
 commands
 
@@ -48,9 +48,9 @@ The results you get when trying to enter these commands yourself are the same. B
 Certain Turkish characters (ğüçöşı, ĞUŞİÇÖ) should not be used in directory names. There is no objection to comment lines. Briefly, Turkish characters should not be used in all lines considered by the Interpreter.
 
 Arduino IDE will reinstall the Arduino IDE when new software is being added, after this address is added to
-'''
+```
 https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
-'''
+```
 in File -> Preferences -> Additional Circuit Board Manager URLs. and select "SparkFun Pro Micro" card in the Tools -> Card section, then make sure that you also select the Processor option in the Tools section as ATmega32U4 (5V, 16MHz).
 
 Also make sure that the Keyboard.cpp and Keyboard.h files in the "Source Code" directory are in the same directory as the Baduino.ino file.

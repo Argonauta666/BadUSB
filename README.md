@@ -5,7 +5,7 @@
 
 Baduino is a device by which HID devices can be imitated and commands can be sent to the corresponding Operating System. A pre-prepared script reads and runs the script files from the storage device attached to the storage module.
 
-<b>quipment</b>
+<b>Equipment</b>
 
 ![Baduino](/baduino2.png)
 

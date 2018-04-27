@@ -1,6 +1,6 @@
 # BadUSB
 
-![BadUSB](http://i.imgur.com/eLdzMhR.jpg)
+![BadUSB](/baduino.jpg)
 
 
 Baduino is a device by which HID devices can be imitated and commands can be sent to the corresponding Operating System. A pre-prepared script reads and runs the script files from the storage device attached to the storage module.
@@ -21,7 +21,7 @@ We use the DIP Switch to select previously prepared scripts.
 
 <b>Software</b>
 
-Part 1 - Interpreter
+<b>Part 1 - Interpreter</b>
 
 commands
 
@@ -43,7 +43,7 @@ The GUI opens the Start Menu via command. STRING is cmd and it says "cmd". CTRL 
 
 The results you get when trying to enter these commands yourself are the same. Baduino scripts attack the system by mimicking a completely physical keyboard. We should not neglect to add delays and this is where you should pay attention.
 
-###Part 2 - Things to Watch Out For
+<b>Part 2 - Things to Watch Out For</b>
 
 Certain Turkish characters (ğüçöşı, ĞUŞİÇÖ) should not be used in directory names. There is no objection to comment lines. Briefly, Turkish characters should not be used in all lines considered by the Interpreter.
 

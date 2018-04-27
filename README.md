@@ -7,7 +7,7 @@ Baduino is a device by which HID devices can be imitated and commands can be sen
 
 <b>quipment</b>
 
-![Baduino](http://i.imgur.com/mnQKtk9.png)
+![Baduino](/baduino2.png)
 
 The circuit elements shown above with the connections shown above;
 
